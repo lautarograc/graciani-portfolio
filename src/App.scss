@@ -2,8 +2,15 @@ $primary-color: #21cc1b;
 
 @import 'animate.css';
 
-@font-face {
-  font-family: 'Times New Roman', Times, serif;
-  src: url('/fonts/times-new-roman.ttf');
+@font-face{
+  font: 'Zilla Slab';
+  src: url('./assets/fonts/ZillaSlab-Light.ttf') format('ttf');
 }
 
+input, textarea {
+  font: 'Zilla Slab';
+}
+p, h1, h2, h3, h4, h5, h6, a {
+  font: 'Zilla Slab';
+  font-size: 18px;
+}
